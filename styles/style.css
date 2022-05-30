@@ -1,0 +1,60 @@
+
+   
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: rgb(134, 179, 246);
+    background-image: url('https://cdn.vectorstock.com/i/1000x1000/07/81/seamless-weather-forecast-background-vector-2000781.webp');
+    font-size: 120%;
+}
+
+.card{
+    background: #f8f3f3d0;
+    color: rgb(73, 73, 206);
+    padding: 2em;
+    border-radius: 40px;
+    width: 100%;
+    max-width: 420px;
+    align-items: center;
+}
+  
+.search{
+    display: flex;
+    align-items: baseline;
+    justify-content: baseline;
+}
+
+button{
+    margin: 0.5em;
+    border-radius: 40px;
+    border: none;
+    height: 44px;
+    width: 44px;
+    outline: none;
+    background: #0849e12b;
+    color: white;
+    cursor: pointer;
+    transition: 0.9s ease-in-out;
+}
+  
+  
+input.search-bar{
+    border: none;
+    outline: none;
+    padding: 0.4em 1em;
+    border-radius: 24px;
+    background: #2607942b;
+    color: rgb(237, 240, 244);
+    font-family: inherit;
+    font-size: 105%;
+    width: calc(100% - 100px);
+}
+  
+button:hover{
+    background: #424bec6b;
+  }
+
+  
